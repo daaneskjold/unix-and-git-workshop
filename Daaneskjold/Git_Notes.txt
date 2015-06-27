@@ -1,0 +1,8 @@
+Git config let's us change the configuration during our git setup
+Git init creates an empty repository or initializes a new one in the folder that you are in.
+Git clone allows us to clone a repository into our local system
+Git add lets you add files to the staging area (given you are following the basic git workflow)
+Git branch 'name' lets you create a new branch of the current one
+Git checkout 'name' switches to the branch you specify so you work on that one. you can mix branch and checkout here, something like git checkout -b newbranch
+Git commit records the changes in the staging area into the repository. This pretty much associates every change you made that is not included in the ignore files to your local version of the repository. You do this prior to pushing (which is saving it in the remote branches, or pretty much publishing it to the webs)
+Git push updates the remote with the new content.
